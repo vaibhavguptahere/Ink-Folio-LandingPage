@@ -1,36 +1,120 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Ink & Folio – Premium Stationery Landing Page  
+A modern, animated, fully responsive landing page for a luxury stationery brand built using **Next.js**, **Tailwind CSS**, and **Vercel v0** for UI components.
 
-## Getting Started
+This project includes several product sections, and a clean editorial layout focused on showcasing premium diaries and pens.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 🚀 Features
+
+### 🎨 Modern UI/UX  
+- Clean, luxury-themed design  
+- Soft paper-texture background  
+- Ink-blue & gold accent colors  
+- Fully mobile-responsive (Tailwind CSS)
+
+### 🖊 Hero Section with Animation  
+- 3D pen-writing animation placeholder using  
+  - `react-three-fiber` & `drei` (3D model),
+  - `lottie-react` (JSON animation)  
+- Fallback stroke-animation SVG for mobile  
+- Smooth CTA hover animations
+
+### 🧩 Sections Included
+- Navbar  
+- Hero (with animation slot)  
+- Features (3–4 product highlights)  
+- Product Showcase (with videos)  
+- Testimonials  
+- Pricing and Contact section  
+- Footer
+
+### 🎥 Media-rich Experience  
+- Supports video-based product demos  
+- Uses lazy-loaded assets for performance  
+- Smooth micro-interactions using Tailwind + motion utilities
+
+---
+
+## 🛠 Tech Stack
+
+| Technology | Purpose |
+|-----------|---------|
+| **Next.js (App Router)** | Framework / Routing |
+| **Tailwind CSS** | Styling & responsiveness |
+| **Vercel v0** | UI components |
+| **Vercel** | Deployment |
+
+---
+
+# 🚀 How to Download, Install, Run, and Build This Project
+
+
+## 📥 1. Download / Clone the Project
+
+
+### Option A — Clone using Git (Recommended)
+```sh
+git clone https://github.com/vaibhavguptahere/Ink-Folio-LandingPage.git
+```
+Then enter the folder:
+```sh
+cd ink-folio-landingpage
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Option B — Download ZIP
+1. Go to your GitHub repository
+2. Click **Code → Download ZIP**
+3. Extract the ZIP
+4. Open the folder in VS Code:
+```sh
+code .
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📦 2. Install Dependencies
+Make sure Node.js 18+ is installed.
+```sh
+npm install
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## ▶️ 3. Start Development Server (Local Preview)
+```sh
+npm run dev
+```
+Visit:
+```
+http://localhost:3000
+```
+
+
+---
+## ⭐ Author
+**VAIBHAV GUPTA**
+Frontend Developer
+GitHub: https://github.com/vaibhavguptahere
+
+
+---
+
+
+## 🌟 Project Footer
+Thank you for exploring **Ink & Folio**! 🎉
+This project was built with passion for clean UI, smooth animations, and modern frontend workflows using **Next.js**, **Tailwind CSS**, and **Vercel v0**.
+
+
+If you like this project:
+- ⭐ Star the repository on GitHub
+- 📝 Give feedback
+- 💡 Contribute ideas or improvements
+
+
+Crafted with ❤️ & creativity
